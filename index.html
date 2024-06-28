@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VENIA</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Page Header  -->
+    <header>
+      <div id="header" class="page-header desktop-header">
+        <!-- Menu Icon -->
+        <div id="menu">
+          <a href="javascript:void(0)">
+            <span> <!--line bar --> </span>
+            <span> <!--line bar --> </span>
+            <span> <!--line bar --> </span>
+          </a>
+        </div>
+        <div id="logo"><a href="javascript:void(0)"><img src="images/logo.PNG" alt="VENIA"/></a></div>
+        <!-- Navigation Links -->
+        <ul class="navbar">
+          <li class="active"><a href="javascript:void(0)" class="active"> Home </a></li>
+          <li><a href="javascript:void(0)"> Women </a></li>
+          <li><a href="javascript:void(0)"> Men </a></li>
+          <li><a href="javascript:void(0)"> Smart&nbsp;Gear </a></li>
+          <li><a href="javascript:void(0)"> Accessories </a></li>
+        </ul>
+        <!-- Basket -->
+        <div id="basket">
+          <a href="javascript:void(0)">
+            <img src="images/cart-icon.PNG" alt="cart" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- Page Banner -->
+    <div class="banner-section">
+        <div class="card page-subname">
+            <h2 class="page-subname-title">
+                Men's Outerwear
+            </h2>
+        </div>
+        <div class="card page-image">
+            <img src="images/Men_outerwear_banner_image.png" alt="Men outerwear banner" />
+        </div>
+    </div>
+    <!-- Page content -->
+    <main>
+        <div class="breadcrumbs-sort-section">
+          <!-- Breadcrumbs -->
+          <div class="breadcrumbs">
+            <a href="javascript:void(0)">Clothing</a> /
+            <a href="javascript:void(0)">Women's</a> /
+            <span>Outerwear</span>
+          </div>
+  
+          <!-- Sorting -->
+          <div id="count"></div>
+          <div class="sort-catergory">
+            <select name="sort-by-price" id="sort-by-price">
+              <option value="">Sort by Price</option>
+              <option value="LH">Price - Low to High</option>
+              <option value="HL">Price - High to Low</option>
+            </select>
+          </div>
+        </div>
+  
+        <div class="container">
+          <!-- Filters -->
+          <aside class="filters">
+            <h3>Filters</h3>
+            <hr />
+            <h4>Categories</h4>
+            <ul class="categories">
+            <li>
+              <input
+                class="ctg-checkbox"
+                type="checkbox"
+                id="category1"
+                name="category1"
+                value="jewelery"
+              />
+              <label for="category1"> Jewelery</label>
+            </li>
+              <li>
+              <input
+                class="ctg-checkbox"
+                type="checkbox"
+                id="category2"
+                name="category2"
+                value="electronics"
+              />
+              <label for="category2"> Electronics</label>
+            </li>
+              <li>
+              <input
+                class="ctg-checkbox"
+                type="checkbox"
+                id="category3"
+                name="category3"
+                value="men's clothing"
+              />
+              <label for="category3"> Men's Clothing</label>
+            </li>
+              <li>
+              <input
+                class="ctg-checkbox"
+                type="checkbox"
+                id="category4"
+                name="category4"
+                value="women's clothing"
+              />
+              <label for="category4"> Women's Clothing</label>
+            </li>
+            </ul>
+            <hr />
+          </aside>
+  
+          <section class="item-section" id="item-section">
+            <!-- Items data -->
+          </section>
+        </div>
+  
+        <!-- Load More Button -->
+        <button id="load-more">Load More</button>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <div class="container page-footer">            
+            <div class="footer-nav-block">
+              <h3>Account</h3>
+              <ul>
+                <li><a href="/">Sign In</a></li>
+                <li><a href="/">Register</a></li>
+                <li><a href="/">Order Status</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-block">
+              <h3>About us</h3>
+              <ul>
+                <li><a href="/">Our Story</a></li>
+                <li><a href="/">Careers</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-block">
+              <h3>Help</h3>
+              <ul>
+                <li><a href="/">Contact Us</a></li>
+                <li><a href="/">Order Status</a></li>
+                <li><a href="/">Returns</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-block">
+              <h3>Follow Us!</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore.
+              </p>
+              <div class="social-media-follow">
+                <span><a href="/"><img src="images/instagram.svg" alt="Instagram" /></a></span>
+                <span><a href="/"><img src="images/facebook.svg" alt="Facebook" /></a></span>
+                <span><a href="/"><img src="images/twitter.svg" alt="X" /></a></span>
+              </div>
+            </div>
+        </div>
+          <hr />
+          
+        <div id="copyright-section" class="container page-footer">
+            <div>
+              <h3>V E N I A</h3>
+            </div>
+            <div>
+              &copy; Company Name Address Ave, City Name, State ZIP
+            </div>
+            <div class="terms-policy">
+              <a href="javascript:void(0)"> Terms of Use </a>
+              <a href="javascript:void(0)">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/venia.js"></script>
+  </body>
+</html>
